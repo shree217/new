@@ -1,0 +1,113 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+
+}
+
+body{
+	height: 100%;
+	background-color: #113;
+}
+
+h1{
+	font-size: 3rem;
+	font-weight: 50;
+	margin:1rem 0 3rem;
+	text-align:center;
+	color: #fff;
+	font-family: 'Bangers', cursive;
+	
+}
+
+.styling{
+	color: lime;
+}
+
+.list{
+	color: orange;
+}
+
+.input_div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.input_div .input{
+	padding: 0.5rem 1rem;
+	height: 50px;
+	outline: 50px;
+	background-color: #fff;
+	width: 450px;
+	font-size: 1.15rem;
+	margin: 0.25rem;
+	border: none;
+	border-radius: 25px;
+}
+
+.addButton{
+	height: 50px;
+	padding: 0.5rem 1rem;
+	border-radius: 25px;
+	outline: none;
+	border:none;
+	color: #116;
+	margin:0.25px;
+	background-color:lime;
+	cursor: pointer;
+	font-size: 20px;
+	font-weight: 5;
+	font-family: 'Hind', sans-serif;
+}
+
+.addButton:hover{
+	opacity: 0.7;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.item{
+	padding: 0.5rem;
+	margin-bottom: 1.5rem;
+	border-bottom: 1.5px solid #fff;
+}
+
+.item_input{
+	background: none;
+	outline: none;
+	color: #fff;
+	border: none;
+	width: 350px;
+	font-size: 1.4rem;
+}
+
+.editbutton{
+	font-size: 1.4rem;
+	margin: 0 0.4rem;
+	font-family: 'Hind', sans-serif;
+	outline: none;
+	color: orange;
+	border: none;
+	background: none;
+	cursor: pointer;
+}
+
+.removebutton{
+	font-size: 1.4rem;
+	margin: 0 0.4rem;
+	font-family: 'Hind', sans-serif;
+	outline: none;
+	color: red;
+	border: none;
+	background: none;
+	cursor: pointer;
+}
